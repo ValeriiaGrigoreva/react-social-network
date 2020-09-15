@@ -1,4 +1,4 @@
-##Description in English:
+Description in English:
 Social network based on React JS. The project is under development.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
