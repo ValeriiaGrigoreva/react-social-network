@@ -25,7 +25,7 @@ function App(props) {
           <Route path="/settings" component={Settings} />
 
           <Route path="/dialogs" render={() => <Dialogs state={props.state.messagesPage} />} />
-          <Route path="/profile" render={() => <Profile state={props.state.profilePage} addPost={props.addPost} updateNewPostText={updateNewPostText} />} />
+          <Route path="/profile" render={() => <Profile dispatch={props.dispatch} state={props.state.profilePage} />} />
         </div>
       </div>
     </BrowserRouter>
